@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en"
 title = "John Doe"
 theme = "hugo-devresume-theme"
