@@ -145,7 +145,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Software Developer with a strong background in object oriented principles and design. Believer in pragmatic solutions, maintainable and scalable design. Backend Engineer with proficiency in common design patterns including: Microservices, dependency injection, MVC, TDD, etc. Computer Science graduate with over 4 years of experience working as a software developer for leading organizations such as Ellie Mae, SAP Labs, and Cognizant. "
+        text = "Software Developer with a strong background in object oriented principles and design. Believer in pragmatic solutions, maintainable and scalable design. Backend Engineer with proficiency in common design patterns such as Microservices, Dependency Injection, MVC, TDD, etc. Computer Science graduate and USC Alumni with over 4 years of experience working as a software developer for leading organizations such as Ellie Mae, SAP Labs, and Cognizant. "
 
 
 
