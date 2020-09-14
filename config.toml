@@ -172,7 +172,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Painting"
         [[params.interests.list]]
         name = "Photography"
         [[params.interests.list]]
