@@ -53,21 +53,59 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
+        title = "Programming"
+        [[params.skills.list.items]]
+        details = "C# ![Progress](assets/images/adv.png)"
+        [[params.skills.list.items]]
+        details = "Python ![Progress](assets/images/adv.png)"
+        [[params.skills.list.items]]
+        details = "Java ![Progress](assets/images/prof.png)"
+        [[params.skills.list.items]]
+        details = "JavaScript ![Progress](assets/images/prof.png)"
+        [[params.skills.list.items]]
+        details = "Scala ![Progress](assets/images/int.png)"
+        [[params.skills.list.items]]
+        details = "C++ ![Progress](assets/images/prof.png)"
+        [[params.skills.list.items]]
+        details = "Familiar: C, Go, Matlab, ABAP"
+
+        [[params.skills.list]]
+        title = "Development"
+        [[params.skills.list.items]]
+        details = "Microservices"
+        [[params.skills.list.items]]
+        details = "Dependency Injection"
+        [[params.skills.list.items]]
+        details = "MVC"
+        [[params.skills.list.items]]
+        details = "TDD, Containers, CI/CD, SQL, Git"
+
+        [[params.skills.list]]
+        title = "Frameworks"
+        [[params.skills.list.items]]
+        details = ".NET"
+        [[params.skills.list.items]]
+        details = "React, Redux, AngularJS"
+        [[params.skills.list.items]]
+        details = "NodeJS, Flask"
+        [[params.skills.list.items]]
+        details = "HANA, Fiori"
+
+        [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "AWS, Jenkins, Terraform"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "Redis, Kafka, RabbitMQ"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "Microsoft SQL Server, MongoDb, Firebase, DynamoDb, PostgreSQL"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "ELK, Splunk"
+
+        [[params.skills.list]]
+        title = "Data Science"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Spark, TensorFlow, Keras, Scikit-Learn"
 
         [[params.skills.list]]
         title = "Professional"
@@ -116,6 +154,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.languages.list]]
         name = "Hindi"
         level = "Native"
+        [[params.languages.list]]
+        name = "German"
+        level = "Beginner"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Beginner"
 
 
 
@@ -129,8 +173,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.interests.list]]
         name = "Climbing"
-        [[params.interests.list]]
-        name = "Snowboarding"
         [[params.interests.list]]
         name = "Photography"
         [[params.interests.list]]
@@ -161,35 +203,49 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Software Engineer"
         dates = "Jun 2019 - Present"
         company = "Ellie Mae"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        details = "Velocify Core Platform Infrastructure | Backend development"
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Designed and developed several scalable, performant, and resilient RESTful APIs using Microservices architecture hosted on AWS cloud infrastructure."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Developed several features and improvements to an MVC based web application using C# and .NET Framework."
         [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        details = "Improved and aided in creation of several libraries which are being used across various development teams."
+        [[params.experience.list.items]]
+        details = "Built the CI/CD pipelines for Microservices running on Docker containers using Jenkins and Terraform."
+        [[params.experience.list.items]]
+        details = "Improved code quality and testability by implementing automated testing in applications and services using best practices and coding standards."
+        [[params.experience.list.items]]
+        details = "Technologies: C#, .Net, Microsoft SQL server, Microservices, Redis, Kafka, RabbitMQ, Docker, Jenkins, Terraform, AWS."
         
         [[params.experience.list]]
-        title = "Software Engineer Intern"
+        title = "Software Developer Intern"
         dates = "Jun 2018 - Aug 2018"
         company = "Ellie Mae"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        details = "Designed and developed a feature-package management module, a part of core infrastructure platform’s admin tool, that enables product administrators to schedule feature-package management tasks. Technologies: AngularJS, C#, .Net, MS SQL Server, TFS."
 
         [[params.experience.list]]
         title = "Developer Associate"
         dates = "Mar 2015 - Jul 2017"
         company = "SAP"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        details = "S/4 HANA Product Master | Backend development"
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Designed and developed the RESTful Services for the S/4 HANA Product Master Application using ABAP, HANA database, and the NetWeaver platform deployed on SAP Cloud Platform."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Built the draft enablement functionality for Product Master Application using the HANA platform. The functionality enabled users to save intermediate states of Material Master data as drafts with seamless search capability alongside active data."
+        [[params.experience.list.items]]
+        details = "Integrated the ERP Master Data with Supply Chain Management and Retail Master Data. The integration enabled users to access data from three domains i.e. ERP, SCM, and Retail, using the Product Maser Application."
+        [[params.experience.list.items]]
+        details = "Led a development team of 5 to design and build a Dashboard application that provided analytics based on historical data about state of plants and storage locations in S/4 HANA. The application was showcased as part of Innovation projects in S/4 HANA domain. Received the Rising Star award for the project in Dec 2016."
+        [[params.experience.list.items]]
+        details = "Technologies: ABAP (Object oriented programming), HANA, Fiori (JavaScript)"
 
         [[params.experience.list]]
         title = "Programmer Analyst Trainee"
         dates = "Sep 2014 - Feb 2015"
         company = "Cognizant"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        details = "Full Stack Development | .Net Framework"
+        [[params.experience.list.items]]
+        details = "Designed and developed an MVC based web application for an online book store as part of an internal project. Technologies: C#, ASP.NET, Microsoft SQL Server"
 
 
 
@@ -205,19 +261,39 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Deep Link Prediction for Graphical Database"
+        meta = "Jan 2019 – May 2019"
+        tagline = "Devised a method to predict bankruptcies of companies using a Graph Convolutional Neural Network. The approach used was to solve the multi-relational link prediction task in a multi modal finance graph stored in a graphical database. Technologies used: Tensorflow, Neo4j. Built a Java plugin for Neo4j to query the database using an Approximate Nearest Neighbors algorithm called annoy."
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Movie Recommendation System using Collaborative filtering and Alternating Least Squares"
+        meta = "Jul 2018 – Aug 2018"
+        tagline = "Implemented several recommendation systems using the MovieLens dataset. The techniques applied are user-based and item-based collaborative filtering, alternating least squares algorithm. Technologies: Spark, Scala"
 
         [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Twitter data sampling application using reservoir sampling"
+        meta = "Jul 2018"
+        tagline = "Designed and developed a real-time web application to sample data from a continuous stream of tweets using reservoir sampling method. The application also provides statistics based on the sampled data. Technologies used: Python (Flask, Socket.io), React, Redux"
+        
+        [[params.projects.list]]
+        title = "Automated customer feedback service using sentiment analysis of text messages"
+        meta = "Feb 2018"
+        tagline = "Designed and built an interactive web application to collect customer feedback using text messages. The application interacted with customers based on the sentiment analysis of their replies. Technologies used: Python Flask, MongoDB, Bootstrap, RESTful Apis, Microsoft Azure, Twilio."
+        
+        [[params.projects.list]]
+        title = "Survey Application"
+        meta = "Jan 2018"
+        tagline = "Designed and developed a web/android application to conduct online surveys. Technologies used: Ionic, AngularJS, Firebase"
+        
+        [[params.projects.list]]
+        title = "N plus K Queens problem using simulated annealing"
+        meta = "Nov 2017"
+        tagline = "Devised an approach to solve the N plus K Queens problem using simulated annealing. Built an interactive web application to demonstrate the approach in various settings"
+        
+        [[params.projects.list]]
+        title = "Game playing AI agent"
+        meta = "Oct 2017"
+        tagline = "Built a game playing AI agent for game called fruit rage (description in repo). The AI agent used the minimax algorithm to maximize it's chances of winning. Built an interactive UI game that allowed players to play against the AI agent using the TKinter library in Python."
 
 
 
@@ -234,13 +310,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
         title = "Papers"
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
+        details = "2015 · Phylogenetic analysis Using MapReduce Programming Model . IEEE International Parallel and Distributed Computing Symposium"
 
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
 
 
 
@@ -254,16 +325,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/ishankkm"
+        title = "ishankkm"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/ishankmishra/"
+        title = "ishankmishra"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//twitter.com/ishankmishra"
+        title = "@ishankmishra"
 
 
 
